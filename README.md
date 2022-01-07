@@ -5,6 +5,9 @@ scripts for js practice
 ## node installation
 [setup node on windows](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows)
 
+# nmp setup
+[setup npm packages](https://www.npmjs.com/)
+
 # Linux Command
 
 ```
