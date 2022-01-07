@@ -23,13 +23,11 @@ cat <myfile.txt> - display file content to screen without limits
 
 # Git Command
 ```
+ssh -v git@github.com -> check connectivity between local git and remote git
 git config --global user.name "user_name" -> change the user name to the git
 git config --global user.email "email_id" -> change the email id to the git
 git config --list -> list all the sitting of git
 git init -> initialized empty Git repository
-~/.ssh/config
-ssh -v git@github.com
-cat ~/.ssh/id_rsa.pub
 git clone [url] -> used to obtain a repository from an existing URL
 git status -> lists all the files that have to be committed.
 git add [file] -> adds one or more to the staging area.
