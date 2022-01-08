@@ -45,3 +45,19 @@ git pull -> fetches and merges changes on the remote server to your working dire
 
 ```
 
+# npm packages usage
+## how to use express in project
+### syntex
+
+```
+const express = require("express");
+const path = require("path");  // for path setup
+
+const app = express(); 
+app.use(express.urlencoded({ extended: true })); // middleware function in Express
+
+app.get("/", function (req, res) {
+    res.sendFile(path.join(__dirname, "src/ui/form.html"));
+  });
+```
+ 
